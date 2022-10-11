@@ -1,0 +1,30 @@
+.indexBody{
+    padding-top: 150px;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.cartBody{
+    padding-top: 110px;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}

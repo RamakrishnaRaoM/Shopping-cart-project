@@ -1,0 +1,139 @@
+/*This is header Section*/
+
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 3px;
+    right: 3px;
+    border-radius: 4px;
+    background-color: black;
+    border: solid;
+    z-index: 100;
+}
+
+.header .left {
+    display: flex;
+    width: 250px;
+    min-width: 250px;
+    align-items: center;
+}
+
+.header .left .headerText1{
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+.header .center{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content:center
+}
+
+.header .center .searchBoxDivision{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    max-width:300px;
+    justify-content: center;
+}
+
+.header .center .searchBoxDivision .temp{
+    display:flex;
+    flex:1;
+}
+
+.header .center .searchBox{
+    height:30px;
+    width: 97%;
+}
+
+.header .center .png{
+    padding-top: 2px;
+    height: 34px;
+    background-color: rgb(238, 238, 238);
+}
+
+.header .right{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .right .carticon{
+    position: relative;
+}
+
+.header .right .cartnumber{
+    background-color: red;
+    color: white;
+    width: 10px;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    display: flex;
+    justify-content: center;
+    flex:1;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.header .right .cartnumber span{
+    font-size: large;
+
+}
+
+.header .right .png{
+    padding-top: 2px;
+    height: 34px;
+    background-color: rgb(238, 238, 238);
+}
+
+/* this is cart 2nd header section*/
+
+.cartBill{
+    margin-top: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.cartBill .twoButtons .blueButton{
+    background-color: blue;
+    color:white;
+    border: none;
+    height:35px;
+    width: 95px;
+    margin-right: 15px;
+}
+.cartBill .twoButtons .redButton{
+    background-color: red;
+    color:white;
+    border: none;
+    height:35px;
+    width: 95px;
+    margin-right:15px;
+}
+
+.cartBill .cartDesc1 span{
+    font-size: x-large;
+    display: flex;
+}
+
+.cartBill .cartButtons1 a button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    height: 32px;
+    font-weight: 600;
+}
